@@ -6,6 +6,20 @@ div {
   border: 1px solid Chocolate;
 }
 
+/* General Styles */
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+  
+}
+
 /*  Navigation Section */
 
 .top-nav {
@@ -16,5 +30,40 @@ div {
   width: 970px;
   height: 70px;
   margin: 0 auto;
+}
+
+.top-nav img {
+  height: 70px;
+}
+
+.links {
+  float: right;
+  display: inline-block;
+  list-style: none;
+  padding-top: .5rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #838994;
+  font-size: 1.04rem;
+}
+
+.links a:hover {
+  color: #4f545b;
+}
+
+.links li.active {
+  font-weight: 500;
+  color: black;
+}
+
+.content {
+  padding: 0 15px
+}
+
+li {
+  display: inline-block;
+  margin-left: 1.7rem;
 }
 

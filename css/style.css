@@ -19,9 +19,10 @@ html {
 }
 
 body {
-  font-family: Roboto, sans-serif;
-  font-size: 1rem;
-  line-height: 20px;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
   
 }
 
@@ -49,6 +50,10 @@ body {
 }
 
 .links a {
+  -webkit-transition: color .5s ease;
+     -moz-transition: color .5s ease;
+      -ms-transition: color .5s ease;
+          transition: color .5s ease;
   text-decoration: none;
   color: #838994;
   font-size: 1.04rem;
@@ -58,9 +63,9 @@ body {
   color: #4f545b;
 }
 
-.links li.active {
-  font-weight: 500;
-  color: black;
+.active a {
+  color: #4c5058;
+  font-weight: 600;
 }
 
 .content {
@@ -71,4 +76,3 @@ li {
   display: inline-block;
   margin-left: 1.7rem;
 }
-

@@ -76,3 +76,19 @@ li {
   display: inline-block;
   margin-left: 1.7rem;
 }
+
+/*  Hero section  */
+
+#hero {
+  height: 41.5rem;
+  background-image: url('images/background.jpg');
+  background-position: top left;
+  background-size: cover;
+}
+
+#hero-title {
+  color: #fff;
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+}

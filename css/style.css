@@ -1,17 +1,10 @@
-body {
-  background-color: LightGray;
-}
-
-div {
-  border: 1px solid Chocolate;
-}
-
 /* General Styles */
 
 html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 *, *:before, *:after {
@@ -157,8 +150,6 @@ button:hover {
   margin-right: 1.7rem;
   width: 33.333333%;
   float: left;
-  border: 1px solid red; /*  Remove later  */
-
 }
 
 .cases .devices li:last-child {
@@ -176,3 +167,63 @@ button:hover {
 
 /*  Footer  */
 
+hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin 1.313rem 0;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+
+.social {
+  padding-bottom: 9.375rem;
+  background-color: #fff;
+}
+
+.icons {
+  background-color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.social .icons li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.icons li:last-child {
+  margin-left: 0;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-facebook {
+  color: #4c66a4;
+}
+
+.fa-instagram {
+  color: #3f729b;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
